@@ -9,7 +9,7 @@ You can use the python csv module for writing data to csv files.
 Refer to https://docs.python.org/2/library/csv.html.
 For Example:
 ```
-with open('sample_data.csv', 'w') as csv_file:
+with open('output_labels.csv', 'w') as csv_file:
 	writer = csv.writer(csv_file)
     writer.writerows(data)
 ```
